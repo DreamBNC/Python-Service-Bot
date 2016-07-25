@@ -1,5 +1,5 @@
 # WIP
-# DreamBNC Bot ²
+# DreamBNC Bot 2
 # (c) DreamBNC
 
 # Loading essential libraries (needed for connecting to IRC)
