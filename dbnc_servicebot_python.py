@@ -11,7 +11,7 @@ print("(c) 2016 DreamBNC dev team.")
 print("Initalizing.")
 # setting variables
 bncprovider = DreamBNC
-bncweb = http://dreambnc.xyz
+bncweb = dreambnc.xyz
 server1 = Mushroom
 print("Initalized; connecting...")
 # connecting using zirc
