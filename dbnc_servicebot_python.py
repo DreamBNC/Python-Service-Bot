@@ -27,9 +27,7 @@ self.config = zirc.IRCConfig(host="irc.freenode.net",
  channels=['#DreamBNC'],
 sasl_user="user",
 sasl_pass="pw")
-
-
 	self.connect(self.config)
-	self.start()
+self.start()
 
 Bot()
