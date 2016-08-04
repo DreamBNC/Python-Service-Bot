@@ -16,8 +16,8 @@ server1 = Mushroom
 print("Initalized; connecting...")
 # connecting using zirc
 class Bot(zirc.Client):
- def __init__(self):
-	self.connection = zirc.Socket(wrapper=ssl.wrap_socket)
+    def __init__(self):
+    self.connection = zirc.Socket(wrapper=ssl.wrap_socket)
 self.config = zirc.IRCConfig(host="irc.freenode.net",
  port=6697,
  nickname="%bncprovider",
@@ -25,9 +25,9 @@ self.config = zirc.IRCConfig(host="irc.freenode.net",
  realname="BNC request bot",
 	# variables are being an pain; we have to hard code this
  channels=['#DreamBNC'],
-sasl_user="user",
-sasl_pass="pw")
-	self.connect(self.config)
+    sasl_user="user",
+    sasl_pass="pw")
+self.connect(self.config)
 self.start()
 
 Bot()
