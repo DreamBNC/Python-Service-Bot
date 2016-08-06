@@ -21,8 +21,8 @@ class Bot(zirc.Client):
 self.config = zirc.IRCConfig(host="irc.freenode.net",
  port=6697,
  nickname="%bncprovider",
- ident="bnc",
- realname="BNC request bot",
+ ident="%bncprovider",
+ realname="%bncprovider Service Bot - http://%bncweb",
 	# variables are being an pain; we have to hard code this
  channels=['#DreamBNC'],
     sasl_user="user",
