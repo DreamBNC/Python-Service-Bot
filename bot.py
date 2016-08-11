@@ -24,6 +24,7 @@ self.config = zirc.IRCConfig(host="irc.freenode.net",
  ident="%bncprovider",
  realname="%bncprovider Service Bot - http://%bncweb",
 	# variables are being an pain; we have to hard code this
+	# We should also probably add some way to input a server pass
  channels=['#DreamBNC'],
     sasl_user="user",
     sasl_pass="pw")
